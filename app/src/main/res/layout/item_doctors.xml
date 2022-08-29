@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/doctorNameTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. John" />
+
+        <TextView
+            android:id="@+id/designationTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designation" />
+
+        <TextView
+            android:id="@+id/specialtyTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Specialist" />
+
+        <TextView
+            android:id="@+id/departmentTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department" />
+
+
+        <TextView
+            android:id="@+id/qualificationTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qualification" />
+
+        <TextView
+            android:id="@+id/feeValueTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fee" />
+
+        <TextView
+            android:id="@+id/phoneNoTvID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="017xxxxxxxx" />
+
+
+        <TextView
+            android:id="@+id/emailTvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xyz@gmail.com" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
